@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Website Modern</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav class="navbar">
+            <a href="index.html">Beranda</a>
+            <a href="about.html">Tentang</a>
+            <a href="services.html">Layanan</a>
+            <a href="portfolio.html">Portofolio</a>
+            <a href="contact.html">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="portfolio">
+            <h2>Portofolio Saya</h2>
+            <p>Berikut adalah beberapa proyek yang telah saya kerjakan:</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-title="Proyek 1" data-description="Deskripsi singkat tentang proyek ini.">
+                    <img src="https://via.placeholder.com/300" alt="Proyek 1">
+                    <div class="overlay">
+                        <h3>Proyek 1</h3>
+                        <p>Deskripsi singkat tentang proyek ini.</p>
+                        <button class="btn view-details">Lihat Detail</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-title="Proyek 2" data-description="Deskripsi singkat tentang proyek ini.">
+                    <img src="https://via.placeholder.com/300" alt="Proyek 2">
+                    <div class="overlay">
+                        <h3>Proyek 2</h3>
+                        <p>Deskripsi singkat tentang proyek ini.</p>
+                        <button class="btn view-details">Lihat Detail</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-title="Proyek 3" data-description="Deskripsi singkat tentang proyek ini.">
+                    <img src="https://via.placeholder.com/300" alt="Proyek 3">
+                    <div class="overlay">
+                        <h3>Proyek 3</h3>
+                        <p>Deskripsi singkat tentang proyek ini.</p>
+                        <button class="btn view-details">Lihat Detail</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-title="Proyek 4" data-description="Deskripsi singkat tentang proyek ini.">
+                    <img src="https://via.placeholder.com/300" alt="Proyek 4">
+                    <div class="overlay">
+                        <h3>Proyek 4</h3>
+                        <p>Deskripsi singkat tentang proyek ini.</p>
+                        <button class="btn view-details">Lihat Detail</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-title="Proyek 5" data-description="Deskripsi singkat tentang proyek ini.">
+                    <img src="https://via.placeholder.com/300" alt="Proyek 5">
+                    <div class="overlay">
+                        <h3>Proyek 5</h3>
+                        <p>Deskripsi singkat tentang proyek ini.</p>
+                        <button class="btn view-details">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Website Modern | Dibuat oleh <a href="#">Anda</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
